@@ -1,5 +1,8 @@
 # FantasyMapGenerator
 
+
+![example](example.png)
+
 This is a Docker packaged version of https://github.com/rlguy/FantasyMapGenerator which implements https://github.com/mewo2/terrain.
 
 ```
@@ -32,5 +35,3 @@ Options:
   -v, --verbose                  output additional information to stdout
 $ docker run -it -v $(pwd):/output gregbuehler/fantasymapgenerator -o /output/example.png
 ```
-
-![example](example.png)
